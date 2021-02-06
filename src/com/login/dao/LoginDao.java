@@ -12,7 +12,7 @@ public class LoginDao {
 	String sql="select * from login where uname=? and pass=?";
 	String url="jdbc:mysql://localhost:3306/db";
 	String username="root";
-	String password="Tammana@123";
+	String password="Ta@123";
      public boolean ischeck(String uname,String pass) throws ClassNotFoundException, SQLException {
     	 Class.forName("com.mysql.jdbc.Driver");
     	 
